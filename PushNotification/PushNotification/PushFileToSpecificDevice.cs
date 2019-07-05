@@ -8,7 +8,7 @@ using PushbulletSharp.Models.Responses;
 
 namespace PushBullet.Workflow.Activities
 {
-    public class PushFileToSpecificDevice : CodeActivity
+    public class PushFileToASpecificDevice : CodeActivity
     {
         [Category("Input")]
         [Description("The body of the notification to be sent")]

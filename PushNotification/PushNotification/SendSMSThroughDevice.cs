@@ -28,7 +28,7 @@ namespace PushBullet.Workflow.Activities
 
         [Category("Input")]
         [RequiredArgument]
-        [Description("Your PushBullet Device nickname. This can be found in your PushBullet settings: https://www.pushbullet.com/#devices")]
+        [Description("The PushBullet Device nickname for the android phone the message will be sent via. This can be found in your PushBullet settings: https://www.pushbullet.com/#devices")]
         public InArgument<string> DeviceNickname { get; set; }
 
         [Category("Input")]
@@ -52,17 +52,13 @@ namespace PushBullet.Workflow.Activities
 
             PushbulletClient client = new PushbulletClient(aPIKey, encryptionKey);
             var currentUserInformation = client.CurrentUsersInformation();
-
-
             var devices = client.CurrentUsersDevices();
-            var currentdevice = devices.Devices.Where(o => o.Nickname == identity).FirstOrDefault();
-            var smsDevice = devices.Devices.Where(o => o.HasSMS).FirstOrDefault();
+            var smsDevice = devices.Devices.Where(o => o.Nickname == identity).FirstOrDefault();
 
             SMSEphemeral smsRequest = new SMSEphemeral()
             {
                 ConversationIden = phoneNumber,
                 Message = messageBody,
-                SourceUserIden = currentdevice.Iden,
                 TargetDeviceIden = smsDevice.Iden,
                 PackageName = "com.pushbullet.android"
             };

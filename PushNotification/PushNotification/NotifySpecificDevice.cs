@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace PushBullet.Workflow.Activities
 {
-    public class NotifySpecifcDevice : CodeActivity
+    public class NotifyASpecificDevice : CodeActivity
     {
         [Category("Input")]
         [RequiredArgument]

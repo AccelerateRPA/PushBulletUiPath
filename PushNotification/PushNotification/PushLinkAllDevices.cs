@@ -7,7 +7,7 @@ using PushbulletSharp.Models.Responses;
 
 namespace PushBullet.Workflow.Activities
 {
-    public class PushLinkAllDevices : CodeActivity
+    public class PushLinkToAllDevices : CodeActivity
     {
         [Category("Input")]
         [RequiredArgument]
