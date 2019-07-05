@@ -1,0 +1,10 @@
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\bin\Debug\PushNotification.dll
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\bin\Debug\PushNotification.pdb
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\bin\Debug\BouncyCastle.dll
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\bin\Debug\PushbulletSharp.dll
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\bin\Debug\PushbulletSharp.pdb
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\obj\Debug\PushNotification.csprojAssemblyReference.cache
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\obj\Debug\PushNotification.csproj.CoreCompileInputs.cache
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\obj\Debug\PushNotification.csproj.CopyComplete
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\obj\Debug\PushNotification.dll
+C:\Users\Elliott\source\repos\PushNotification\PushNotification\obj\Debug\PushNotification.pdb
